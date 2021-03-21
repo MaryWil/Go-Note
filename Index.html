@@ -8,33 +8,27 @@
 		<link rel="stylesheet" href="custom-style.css">
 	</head>
 	<body>
-		<img class="main-image" src="https://images.pexels.com/photos/317154/pexels-photo-317154.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Tło" width="520" height="315">
-		<div id="main-header">
-			<h1>GO Note</h1>
-			<p>Aplikacja do zarządzania swoimi <strong>notatkami</strong>.</p>
+		<div class="container-fluid p-0 m-0">
+			<div class="row p-0 m-0">
+				<div class="col-12 col-md-5 col-lg-4 bg-light p-0">
+					<h3 class="w-100 text-center p-4">
+						<i class="bi bi-clipboard-check text-secondary"></i>
+						GoNote
+					</h3>
+					<button type="button" class="btn btn-dark w-100 py-2 rounded-0">
+						<i class="bi bi-pen-fill"></i>
+						Stwórz nową notatkę
+					</button>
+					<div class="alert alert-secondary m-3 text-center">
+						<i class="bi bi-emoji-frown"></i>
+						Jeszcze nie ma żadnych notatek do wyświetlenia
+					</div>
+				</div>
+				<div class="col-12 col-md-7 col-lg-8 bg-white p-0">
+					CZĘŚĆ GŁÓWNA
+				</div>
+			</div>
 		</div>
-		<br>
-		<div>
-			<h2>Moje notatki</h2>
-			<p>Tutaj pojawi się lista notatek.</p>
-		</div>
-		<br>
-		<h2>Dodaj notatkę</h2>
-		<form>
-			<div>
-				<label for="note-title">Tytuł notatki</label>
-				<input type="text" placeholder="..." id="note-title">
-			</div>
-			<div>
-				<label for="note-content">Zawartość notatki</label>
-				<input type="text" placeholder="..." id="note-content">
-			</div>
-			<div>
-				<button type="submit">Zapisz</button>
-			</div>
-			<br>
-			<a href="https://google.com">©2021 Polityka prywatności | Warunki korzystania z usługi</a>
-		</form>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
-</html>
+</html>						
