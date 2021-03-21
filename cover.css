@@ -1,0 +1,6 @@
+.cover {
+ background-image: url ("C:\Users\merry\Desktop\goit\Go-Note\20200823_141412.jpg");
+ background-position: center;
+ background-size: cover;
+ min-height: 150px;
+}
